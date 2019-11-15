@@ -29,6 +29,6 @@ jobs:
         pip install pytest
         pytest
     - uses: azure/webapps-deploy@v1
-     with:
-     app-name: GitHubUniverse2019
-     publish-profile: ${{ secrets.LAB_PUBLISH_PROFILE }}
+      with:
+       app-name: GitHubUniverse2019
+       publish-profile: ${{ secrets.LAB_PUBLISH_PROFILE }}
